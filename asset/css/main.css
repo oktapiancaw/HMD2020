@@ -195,7 +195,7 @@ section {
 
 @media only screen and (max-width: 350px) {
   .main div:nth-child(2) .card {
-    width: calc(100% - 20px);
+    width: calc(100% - 10px);
   }
 }
 
@@ -433,7 +433,7 @@ section {
 
 @media only screen and (max-width: 350px) {
   .quote footer {
-    font-size: 13px;
+    font-size: 11px !important;
   }
 }
 

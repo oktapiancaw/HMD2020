@@ -139,7 +139,7 @@ section{
                 box-shadow: 3px 0px 13px rgba(0,0,0,0.1);
             }
             @media only screen and (max-width: 350px){
-                width: calc(100% - 20px);
+                width: calc(100% - 10px);
             }
             .main-head{
                 h1,h5{
@@ -309,7 +309,7 @@ section{
         height: 60px;
         color: #FFF;
         @media only screen and (max-width: 350px){
-            font-size: 13px;
+            font-size: 11px !important;
         }
         span{
             @include primary-regular();
