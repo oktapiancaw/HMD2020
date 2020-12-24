@@ -167,7 +167,7 @@ section {
   border-radius: 30px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 @media only screen and (max-width: 991px) {
