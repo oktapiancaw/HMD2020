@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap");
+h1, h2, h3, h4 {
+  font-family: 'Maitree', serif;
+}
+
+h1 {
+  font-size: 56px !important;
+  margin-bottom: 1rem !important;
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 28px !important;
+  }
+}
+
+h2 {
+  font-size: 42px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h2 {
+    font-size: 26px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h2 {
+    font-size: 20px !important;
+  }
+}
+
+h5 {
+  font-family: 'Lora', serif;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  h5 {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  h5 {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h5 {
+    font-size: 15px !important;
+  }
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media only screen and (max-width: 575px) {
+  .main {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main div:nth-child(1) {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.main div:nth-child(1) .main-back {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+@media only screen and (max-width: 767px) {
+  .main div:nth-child(1) .main-back {
+    background-color: #FFEEFF;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main div:nth-child(1) .main-back {
+    height: 80%;
+  }
+}
+
+.main div:nth-child(1) .main-back img.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 760px;
+}
+
+@media only screen and (max-width: 991px) {
+  .main div:nth-child(1) .main-back img.back {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .main div:nth-child(1) .main-back img.back {
+    display: none;
+  }
+}
+
+.main div:nth-child(1) .main-back img.front {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 400px;
+  margin-right: 180px;
+}
+
+@media only screen and (max-width: 991px) {
+  .main div:nth-child(1) .main-back img.front {
+    display: none;
+  }
+}
+
+.main div:nth-child(2) .card {
+  position: absolute;
+  width: calc(100% + 200px);
+  height: 60%;
+  left: -200px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: none;
+  border-radius: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .main div:nth-child(2) .card {
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .main div:nth-child(2) .card {
+    width: calc(100% - 100px);
+    height: 60%;
+    top: -100px;
+    left: 50%;
+    padding: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-box-shadow: 3px 0px 13px rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 0px 13px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .main div:nth-child(2) .card {
+    width: calc(100% - 20px);
+  }
+}
+
+.main div:nth-child(2) .card .main-head h1, .main div:nth-child(2) .card .main-head h5 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+  .main div:nth-child(2) .card .main-head {
+    text-align: center;
+  }
+}
+
+.main div:nth-child(2) .social-media {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .main div:nth-child(2) .social-media {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+  }
+}
+
+.main div:nth-child(2) .social-media .social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FF6584;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.main div:nth-child(2) .social-media .social-btn i {
+  font-size: 28px;
+  color: #FFF;
+  line-height: 40px;
+}
+
+.galery {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 120px 0;
+}
+
+.galery-head {
+  width: 100%;
+  text-align: center;
+}
+
+.galery-head p {
+  font-family: 'Lora', serif;
+  font-weight: 700 !important;
+}
+
+.galery-body .card {
+  display: block;
+  position: relative;
+  height: 300px;
+  padding: 20px 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  .galery-body .card {
+    width: 300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+.galery-body .card img {
+  margin-top: 40px;
+  height: 120px;
+}
+
+.galery-body .card a,
+.galery-body .card p {
+  font-family: 'Lora', serif;
+  font-weight: 700 !important;
+  color: #333333;
+  margin-bottom: 1rem;
+  position: absolute;
+  font-size: 18px;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.quote-body {
+  height: calc(100vh - 60px);
+  width: 100%;
+  position: relative;
+}
+
+.quote-body img {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.quote-body .card {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+  height: 400px;
+}
+
+@media only screen and (max-width: 991px) {
+  .quote-body .card {
+    top: 20%;
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-body .card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .quote-body .card {
+    width: 90%;
+  }
+}
+
+.quote-body .card blockquote {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-body .card blockquote {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .quote-body .card blockquote {
+    width: 80%;
+  }
+}
+
+.quote-body .card blockquote p {
+  font-family: 'Lora', serif;
+  font-weight: 400 !important;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-body .card blockquote p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.quote-body .card blockquote span {
+  font-size: 42px;
+  font-family: 'Lora', serif;
+  font-weight: 700 !important;
+  position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-body .card blockquote span {
+    font-size: 32px;
+  }
+}
+
+.quote-body .card blockquote span:nth-child(1) {
+  top: -20px;
+  left: -20px;
+}
+
+.quote-body .card blockquote span:nth-child(3) {
+  bottom: -20px;
+  right: -20px;
+}
+
+.quote-body .card span {
+  font-family: 'Lora', serif;
+  font-weight: 500 !important;
+  font-size: 20px;
+  position: absolute;
+  right: 20%;
+  bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .quote-body .card span {
+    font-size: 16px;
+    right: 15%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .quote-body .card span {
+    right: 10%;
+  }
+}
+
+.quote footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F14444;
+  height: 60px;
+  color: #FFF;
+}
+
+@media only screen and (max-width: 350px) {
+  .quote footer {
+    font-size: 13px;
+  }
+}
+
+.quote footer span {
+  font-family: 'Lora', serif;
+  font-weight: 400 !important;
+}
+
+.quote footer a {
+  color: #FFF;
+  font-family: 'Lora', serif;
+  font-weight: 700 !important;
+}
+/*# sourceMappingURL=main.css.map */
